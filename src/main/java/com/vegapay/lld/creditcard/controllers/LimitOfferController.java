@@ -29,12 +29,14 @@ public class LimitOfferController {
     }
 
     @GetMapping
-    public List<LimitOffer> getLimitOffers(@RequestBody ActiveLimitOfferDTO getRequest) {
-        return limitOfferService.listActiveLimitOffers(getRequest);
+    public ResponseEntity<List<LimitOffer>> getLimitOffers(@RequestBody ActiveLimitOfferDTO getRequest) {
+        List<LimitOffer> limitOffers= limitOfferService.listActiveLimitOffers(getRequest);
+        return new ResponseEntity<>(limitOffers,HttpStatus.OK);
     }
 
     @PutMapping
-    public void updateLimitOffer(@RequestBody UpdateLimitOfferDTO updateRequest) {
+    public ResponseEntity<Void> updateLimitOffer(@RequestBody UpdateLimitOfferDTO updateRequest) {
         limitOfferService.updateLimitOfferStatus(updateRequest);
+        return ResponseEntity.noContent().build();
     }
 }
