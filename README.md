@@ -1,4 +1,5 @@
-
+## Requirement
+https://docs.google.com/document/d/1GBvrJO5hdIXWlU6hdJ6qvduoK1JnVGjgvvvOQ8XR_HE/edit#
 ## API Reference
 
 #### Get Account
