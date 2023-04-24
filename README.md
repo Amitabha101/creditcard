@@ -1,5 +1,6 @@
 ## Requirement
-https://docs.google.com/document/d/1GBvrJO5hdIXWlU6hdJ6qvduoK1JnVGjgvvvOQ8XR_HE/edit#
+https://docs.google.com/document/d/1GBvrJO5hdIXWlU6hdJ6qvduoK1JnVGjgvvvOQ8XR_HE/edit?usp=sharing
+
 ## API Reference
 
 #### Get Account
